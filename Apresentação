@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estratégia de Lançamento - Plataforma SuperStudy</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .gradient-bg { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+        .card-shadow { box-shadow: 0 10px 25px rgba(0,0,0,0.1); }
+        .section-divider { border-left: 4px solid #667eea; }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Header -->
+    <div class="gradient-bg text-white py-16">
+        <div class="max-w-6xl mx-auto px-6 text-center">
+            <h1 class="text-4xl font-bold mb-4">Estratégia de Lançamento</h1>
+            <h2 class="text-2xl font-light mb-6">Plataforma SuperStudy com IA</h2>
+            <div class="bg-white bg-opacity-20 rounded-lg p-4 inline-block">
+                <p class="text-lg"><i class="fas fa-calendar-alt mr-2"></i>Data de Lançamento: <strong>30 de Junho de 2025</strong></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Visão Geral -->
+    <div class="max-w-6xl mx-auto px-6 py-12">
+        <div class="bg-white rounded-lg card-shadow p-8 mb-12">
+            <h2 class="text-3xl font-bold text-gray-800 mb-6 flex items-center">
+                <i class="fas fa-eye text-blue-600 mr-3"></i>Visão Geral do Projeto
+            </h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div>
+                    <h3 class="text-xl font-semibold text-gray-700 mb-4">O Produto</h3>
+                    <p class="text-gray-600 mb-4">Nova funcionalidade de Inteligência Artificial para a plataforma SuperStudy que:</p>
+                    <ul class="space-y-2">
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mr-2 mt-1"></i>Analisa milhares de provas reais (ENEM, Fuvest, Unicamp, UFRGS...)</li>
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mr-2 mt-1"></i>Identifica temas mais recorrentes e estilos de questão</li>
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mr-2 mt-1"></i>Cria listas personalizadas para cada vestibular</li>
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mr-2 mt-1"></i>Permite estudo estratégico e focado</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold text-gray-700 mb-4">Público-Alvo</h3>
+                    <p class="text-gray-600 mb-4">Vestibulandos que enfrentam:</p>
+                    <ul class="space-y-2">
+                        <li class="flex items-start"><i class="fas fa-exclamation-triangle text-orange-500 mr-2 mt-1"></i>Ansiedade e sensação de atraso nos estudos</li>
+                        <li class="flex items-start"><i class="fas fa-exclamation-triangle text-orange-500 mr-2 mt-1"></i>Dificuldade em evoluir mesmo estudando muito</li>
+                        <li class="flex items-start"><i class="fas fa-exclamation-triangle text-orange-500 mr-2 mt-1"></i>Perda de tempo com listas aleatórias</li>
+                        <li class="flex items-start"><i class="fas fa-exclamation-triangle text-orange-500 mr-2 mt-1"></i>Falta de direção no que focar</li>
+                        <li class="flex items-start"><i class="fas fa-exclamation-triangle text-orange-500 mr-2 mt-1"></i>Procrastinação por falta de propósito</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cronograma -->
+        <div class="bg-white rounded-lg card-shadow p-8 mb-12">
+            <h2 class="text-3xl font-bold text-gray-800 mb-6 flex items-center">
+                <i class="fas fa-timeline text-blue-600 mr-3"></i>Cronograma de Lançamento
+            </h2>
+            <div class="grid md:grid-cols-4 gap-6">
+                <div class="text-center">
+                    <div class="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-clipboard-list text-blue-600 text-xl"></i>
+                    </div>
+                    <h3 class="font-semibold text-gray-800 mb-2">Etapa 1</h3>
+                    <p class="text-sm text-gray-600 mb-2">20-22 de Junho</p>
+                    <p class="text-sm">Planejamento e criação de conteúdos</p>
+                </div>
+                <div class="text-center">
+                    <div class="bg-green-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-users text-green-600 text-xl"></i>
+                    </div>
+                    <h3 class="font-semibold text-gray-800 mb-2">Etapa 2</h3>
+                    <p class="text-sm text-gray-600 mb-2">Período de Captação</p>
+                    <p class="text-sm">Geração de leads e pré-inscrições</p>
+                </div>
+                <div class="text-center">
+                    <div class="bg-orange-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-fire text-orange-600 text-xl"></i>
+                    </div>
+                    <h3 class="font-semibold text-gray-800 mb-2">Etapa 3</h3>
+                    <p class="text-sm text-gray-600 mb-2">Aquecimento</p>
+                    <p class="text-sm">Nutrição dos leads captados</p>
+                </div>
+                <div class="text-center">
+                    <div class="bg-purple-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-rocket text-purple-600 text-xl"></i>
+                    </div>
+                    <h3 class="font-semibold text-gray-800 mb-2">Etapa 4</h3>
+                    <p class="text-sm text-gray-600 mb-2">30 de Junho</p>
+                    <p class="text-sm">Lançamento oficial</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Estratégia de Conteúdo -->
+        <div class="bg-white rounded-lg card-shadow p-8 mb-12">
+            <h2 class="text-3xl font-bold text-gray-800 mb-6 flex items-center">
+                <i class="fas fa-content text-blue-600 mr-3"></i>Estratégia de Conteúdo Multi-Plataforma
+            </h2>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- TikTok -->
+                <div class="border-l-4 border-pink-500 pl-6">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-4 flex items-center">
+                        <i class="fab fa-tiktok text-pink-500 mr-2"></i>TikTok
+                    </h3>
+                    <p class="text-gray-600 mb-4">8 vídeos com roteiros completos abordando:</p>
+                    <ul class="space-y-2 text-sm">
+                        <li>• Ansiedade de julho e foco vs. desespero</li>
+                        <li>• Mito das 10 horas de estudo</li>
+                        <li>• Esforço sem evolução</li>
+                        <li>• Volume vs. estratégia</li>
+                        <li>• Segredo de quem acerta o que cai</li>
+                        <li>• Procrastinação e propósito</li>
+                        <li>• Alta performance completa</li>
+                        <li>• Mudanças no vestibular</li>
+                    </ul>
+                    <div class="mt-4">
+                        <a href="https://page1.genspark.site/get_upload_url/73245f47b380307e62bc1454660585da44a4e7c4014e76e0751fdb641f45f480/default/5e16cfda-2bda-43eb-91e1-42c4b88517c2" target="_blank" class="text-pink-500 hover:text-pink-700 text-sm font-medium">
+                            <i class="fas fa-external-link-alt mr-1"></i>Ver roteiros completos
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Reels -->
+                <div class="border-l-4 border-purple-500 pl-6">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-4 flex items-center">
+                        <i class="fab fa-instagram text-purple-500 mr-2"></i>Reels
+                    </h3>
+                    <p class="text-gray-600 mb-4">8 Reels com abordagem humanizada e empática:</p>
+                    <ul class="space-y-2 text-sm">
+                        <li>• Acolhimento da ansiedade</li>
+                        <li>• Desmistificação do volume de estudo</li>
+                        <li>• Validação das dificuldades</li>
+                        <li>• Histórias e cases reais</li>
+                        <li>• Revelação de segredos</li>
+                        <li>• Abordagem da procrastinação</li>
+                        <li>• Conceito de alta performance</li>
+                        <li>• Inovação e tecnologia</li>
+                    </ul>
+                    <div class="mt-4">
+                        <a href="https://page1.genspark.site/get_upload_url/73245f47b380307e62bc1454660585da44a4e7c4014e76e0751fdb641f45f480/default/cc6341fe-62b6-4f3a-a3ab-78359dd7a2d8" target="_blank" class="text-purple-500 hover:text-purple-700 text-sm font-medium">
+                            <i class="fas fa-external-link-alt mr-1"></i>Ver roteiros completos
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Stories -->
+                <div class="border-l-4 border-blue-500 pl-6">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-4 flex items-center">
+                        <i class="fas fa-circle text-blue-500 mr-2"></i>Stories
+                    </h3>
+                    <p class="text-gray-600 mb-4">Sequência de 8 dias com elementos interativos:</p>
+                    <ul class="space-y-2 text-sm">
+                        <li>• Enquetes e quizzes</li>
+                        <li>• Caixas de perguntas</li>
+                        <li>• Stickers interativos</li>
+                        <li>• Contagem regressiva</li>
+                        <li>• Emoji sliders</li>
+                        <li>• CTAs contextualizados</li>
+                        <li>• Engajamento direto</li>
+                        <li>• Calls para pré-inscrição</li>
+                    </ul>
+                    <div class="mt-4">
+                        <a href="https://page1.genspark.site/get_upload_url/73245f47b380307e62bc1454660585da44a4e7c4014e76e0751fdb641f45f480/default/5918afca-25db-4c2a-b78f-0979ef7fda3b" target="_blank" class="text-blue-500 hover:text-blue-700 text-sm font-medium">
+                            <i class="fas fa-external-link-alt mr-1"></i>Ver sequência completa
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Funil de Conversão -->
+        <div class="bg-white rounded-lg card-shadow p-8 mb-12">
+            <h2 class="text-3xl font-bold text-gray-800 mb-6 flex items-center">
+                <i class="fas fa-funnel-dollar text-blue-600 mr-3"></i>Funil de Conversão
+            </h2>
+            
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Página de Captação -->
+                <div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-4 flex items-center">
+                        <i class="fas fa-landing-page text-green-600 mr-2"></i>Página de Captação
+                    </h3>
+                    <div class="bg-gray-50 rounded-lg p-6 mb-4">
+                        <h4 class="font-semibold mb-2">Título Principal:</h4>
+                        <p class="text-gray-700 italic">"Chega de estudar no escuro. Agora você estuda com precisão."</p>
+                        
+                        <h4 class="font-semibold mb-2 mt-4">Subtítulo:</h4>
+                        <p class="text-gray-700 italic">"A nova IA do SuperStudy revela os temas que mais caem no seu vestibular — e cria listas personalizadas em segundos."</p>
+                        
+                        <h4 class="font-semibold mb-2 mt-4">Oferta VIP:</h4>
+                        <ul class="text-sm space-y-1">
+                            <li>• Créditos gratuitos na IA</li>
+                            <li>• Convite privado antes da liberação</li>
+                            <li>• Condições especiais de lançamento</li>
+                        </ul>
+                    </div>
+                    <div class="mt-4">
+                        <a href="https://page1.genspark.site/get_upload_url/73245f47b380307e62bc1454660585da44a4e7c4014e76e0751fdb641f45f480/default/7f31bf8b-52b3-4848-8bdf-a0b9274d7b2a" target="_blank" class="text-green-600 hover:text-green-800 text-sm font-medium">
+                            <i class="fas fa-external-link-alt mr-1"></i>Ver estrutura completa
+                        </a>
+                    </div>
+                </div>
+
+                <!-- E-mail Marketing -->
+                <div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-4 flex items-center">
+                        <i class="fas fa-envelope text-blue-600 mr-2"></i>Sequência de E-mails
+                    </h3>
+                    <p class="text-gray-600 mb-4">8 e-mails de captação e nutrição:</p>
+                    <div class="space-y-3">
+                        <div class="border-l-4 border-gray-300 pl-4 py-2">
+                            <p class="text-sm font-medium">E-mail 1: Ansiedade de julho</p>
+                            <p class="text-xs text-gray-500">Por que vestibulandos entram em pânico</p>
+                        </div>
+                        <div class="border-l-4 border-gray-300 pl-4 py-2">
+                            <p class="text-sm font-medium">E-mail 2: Estudar mais vs. estudar certo</p>
+                            <p class="text-xs text-gray-500">O que separa quem passa de quem fica</p>
+                        </div>
+                        <div class="border-l-4 border-gray-300 pl-4 py-2">
+                            <p class="text-sm font-medium">E-mail 3: Sensação de não evolução</p>
+                            <p class="text-xs text-gray-500">O problema pode não ser você</p>
+                        </div>
+                        <div class="text-center mt-4">
+                            <span class="text-gray-400 text-sm">+ 5 e-mails adicionais</span>
+                        </div>
+                    </div>
+                    <div class="mt-4">
+                        <a href="https://page1.genspark.site/get_upload_url/73245f47b380307e62bc1454660585da44a4e7c4014e76e0751fdb641f45f480/default/77404e7c-a8a6-4a75-87fe-acfa78c0d274" target="_blank" class="text-blue-600 hover:text-blue-800 text-sm font-medium">
+                            <i class="fas fa-external-link-alt mr-1"></i>Ver sequência completa
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Como Funciona -->
+        <div class="bg-white rounded-lg card-shadow p-8 mb-12">
+            <h2 class="text-3xl font-bold text-gray-800 mb-6 flex items-center">
+                <i class="fas fa-cogs text-blue-600 mr-3"></i>Como Funciona a IA SuperStudy
+            </h2>
+            
+            <div class="grid md:grid-cols-4 gap-6">
+                <div class="text-center">
+                    <div class="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                        <span class="text-blue-600 font-bold text-xl">1</span>
+                    </div>
+                    <h3 class="font-semibold text-gray-800 mb-2">Escolha do Vestibular</h3>
+                    <p class="text-sm text-gray-600">Estudante seleciona o vestibular desejado</p>
+                </div>
+                <div class="text-center">
+                    <div class="bg-green-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                        <span class="text-green-600 font-bold text-xl">2</span>
+                    </div>
+                    <h3 class="font-semibold text-gray-800 mb-2">Análise da IA</h3>
+                    <p class="text-sm text-gray-600">IA analisa todas as provas anteriores</p>
+                </div>
+                <div class="text-center">
+                    <div class="bg-orange-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                        <span class="text-orange-600 font-bold text-xl">3</span>
+                    </div>
+                    <h3 class="font-semibold text-gray-800 mb-2">Listas Inteligentes</h3>
+                    <p class="text-sm text-gray-600">Sistema gera listas com temas que mais caem</p>
+                </div>
+                <div class="text-center">
+                    <div class="bg-purple-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                        <span class="text-purple-600 font-bold text-xl">4</span>
+                    </div>
+                    <h3 class="font-semibold text-gray-800 mb-2">Estudo Focado</h3>
+                    <p class="text-sm text-gray-600">Estudante vê evolução real e economiza tempo</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mensagens-Chave -->
+        <div class="bg-white rounded-lg card-shadow p-8 mb-12">
+            <h2 class="text-3xl font-bold text-gray-800 mb-6 flex items-center">
+                <i class="fas fa-key text-blue-600 mr-3"></i>Mensagens-Chave da Campanha
+            </h2>
+            
+            <div class="grid md:grid-cols-2 gap-8">
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-800 mb-4">Problemas Abordados</h3>
+                    <div class="space-y-3">
+                        <div class="flex items-start">
+                            <i class="fas fa-times-circle text-red-500 mr-3 mt-1"></i>
+                            <p class="text-gray-600">"Estudar por horas sem sentir evolução"</p>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-times-circle text-red-500 mr-3 mt-1"></i>
+                            <p class="text-gray-600">"Perder tempo com listas aleatórias"</p>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-times-circle text-red-500 mr-3 mt-1"></i>
+                            <p class="text-gray-600">"Ansiedade por não saber o que focar"</p>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-times-circle text-red-500 mr-3 mt-1"></i>
+                            <p class="text-gray-600">"Procrastinação por falta de propósito"</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-800 mb-4">Soluções Oferecidas</h3>
+                    <div class="space-y-3">
+                        <div class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mr-3 mt-1"></i>
+                            <p class="text-gray-600">"Estudar com precisão e estratégia"</p>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mr-3 mt-1"></i>
+                            <p class="text-gray-600">"Listas personalizadas por IA"</p>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mr-3 mt-1"></i>
+                            <p class="text-gray-600">"Foco no que realmente cai na prova"</p>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mr-3 mt-1"></i>
+                            <p class="text-gray-600">"Estudo com propósito e evolução real"</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Recursos e Documentos -->
+        <div class="bg-white rounded-lg card-shadow p-8">
+            <h2 class="text-3xl font-bold text-gray-800 mb-6 flex items-center">
+                <i class="fas fa-folder-open text-blue-600 mr-3"></i>Materiais de Apoio
+            </h2>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="border border-gray-200 rounded-lg p-4 hover:shadow-md transition-shadow">
+                    <div class="flex items-center mb-3">
+                        <i class="fab fa-tiktok text-pink-500 text-xl mr-3"></i>
+                        <h3 class="font-semibold">Roteiros TikTok</h3>
+                    </div>
+                    <p class="text-sm text-gray-600 mb-3">8 roteiros completos com cenas e falas detalhadas</p>
+                    <a href="https://page1.genspark.site/get_upload_url/73245f47b380307e62bc1454660585da44a4e7c4014e76e0751fdb641f45f480/default/5e16cfda-2bda-43eb-91e1-42c4b88517c2" target="_blank" class="text-pink-500 hover:text-pink-700 text-sm font-medium">
+                        <i class="fas fa-download mr-1"></i>Acessar PDF
+                    </a>
+                </div>
+                
+                <div class="border border-gray-200 rounded-lg p-4 hover:shadow-md transition-shadow">
+                    <div class="flex items-center mb-3">
+                        <i class="fab fa-instagram text-purple-500 text-xl mr-3"></i>
+                        <h3 class="font-semibold">Roteiros Reels</h3>
+                    </div>
+                    <p class="text-sm text-gray-600 mb-3">8 Reels com abordagem humanizada e empática</p>
+                    <a href="https://page1.genspark.site/get_upload_url/73245f47b380307e62bc1454660585da44a4e7c4014e76e0751fdb641f45f480/default/cc6341fe-62b6-4f3a-a3ab-78359dd7a2d8" target="_blank" class="text-purple-500 hover:text-purple-700 text-sm font-medium">
+                        <i class="fas fa-download mr-1"></i>Acessar PDF
+                    </a>
+                </div>
+                
+                <div class="border border-gray-200 rounded-lg p-4 hover:shadow-md transition-shadow">
+                    <div class="flex items-center mb-3">
+                        <i class="fas fa-circle text-blue-500 text-xl mr-3"></i>
+                        <h3 class="font-semibold">Sequência Stories</h3>
+                    </div>
+                    <p class="text-sm text-gray-600 mb-3">8 dias de Stories interativos com enquetes e quizzes</p>
+                    <a href="https://page1.genspark.site/get_upload_url/73245f47b380307e62bc1454660585da44a4e7c4014e76e0751fdb641f45f480/default/5918afca-25db-4c2a-b78f-0979ef7fda3b" target="_blank" class="text-blue-500 hover:text-blue-700 text-sm font-medium">
+                        <i class="fas fa-download mr-1"></i>Acessar PDF
+                    </a>
+                </div>
+                
+                <div class="border border-gray-200 rounded-lg p-4 hover:shadow-md transition-shadow">
+                    <div class="flex items-center mb-3">
+                        <i class="fas fa-landing-page text-green-500 text-xl mr-3"></i>
+                        <h3 class="font-semibold">Página de Captação</h3>
+                    </div>
+                    <p class="text-sm text-gray-600 mb-3">Estrutura completa com títulos, ofertas e formulários</p>
+                    <a href="https://page1.genspark.site/get_upload_url/73245f47b380307e62bc1454660585da44a4e7c4014e76e0751fdb641f45f480/default/7f31bf8b-52b3-4848-8bdf-a0b9274d7b2a" target="_blank" class="text-green-500 hover:text-green-700 text-sm font-medium">
+                        <i class="fas fa-download mr-1"></i>Acessar PDF
+                    </a>
+                </div>
+                
+                <div class="border border-gray-200 rounded-lg p-4 hover:shadow-md transition-shadow">
+                    <div class="flex items-center mb-3">
+                        <i class="fas fa-envelope text-red-500 text-xl mr-3"></i>
+                        <h3 class="font-semibold">E-mails de Captação</h3>
+                    </div>
+                    <p class="text-sm text-gray-600 mb-3">Sequência de 8 e-mails para nutrição de leads</p>
+                    <a href="https://page1.genspark.site/get_upload_url/73245f47b380307e62bc1454660585da44a4e7c4014e76e0751fdb641f45f480/default/77404e7c-a8a6-4a75-87fe-acfa78c0d274" target="_blank" class="text-red-500 hover:text-red-700 text-sm font-medium">
+                        <i class="fas fa-download mr-1"></i>Acessar PDF
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="bg-gray-800 text-white py-8 mt-12">
+        <div class="max-w-6xl mx-auto px-6 text-center">
+            <p class="text-gray-300">Estratégia de Lançamento SuperStudy • 2025</p>
+            <p class="text-sm text-gray-400 mt-2">Documento elaborado com base nos materiais de planejamento oficiais</p>
+        </div>
+    </div>
+</body>
+</html>
